@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato:wght@400;700&family=Merriweather&family=Montserrat&family=Open+Sans&family=Passions+Conflict&family=Poppins&family=Sacramento&display=swap');
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+#x{
+  border-radius: 50%;
+  width:150px;
+  margin:30px 0px;
+}
+body {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color:rgba(135,175,40,255);
+  margin:70px auto;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color:rgba(135,175,40,255);
+  
+}
+p{
+  margin:30px auto;
+}
+
+.name {
+  position: absolute;
+  left: 50vw;
+  top: 200px;
+  transform: translateX(-50%);
+  color:rgba(135,175,40,255);
+}
+
+.name h1 {
+  font-weight:lighter;
+  
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+
+.name p {
+    font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.top {
+  background-color: #e0ebe8;
+  height: 745px;
+}
+
+.cloud {
+  position: absolute;
+  width: 150px;
+}
+
+.mountain {
+  display: block;
+  position: relative;
+  top: 465px;
+  text-align: center;
+  width: 100%;
+}
+
+.one {
+  top: 200px;
+  right: 400px;
+}
+
+.two {
+  top: 400px;
+  left: 400px;
+}
+
+.skill-row{
+  width:40%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+
+}
+.first_skill{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.second_skill{
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+}
+.profile p {
+  width:40%;
+  margin:30px auto 30px auto;
+
+}
+ .contact-me p{
+  width:40%;
+  margin:30px auto 80px auto;
+
+ }
+hr{
+  border-style: dotted none none none;
+  height: 0px;
+  width:5%;
+  border-width: 10px;
+  border-color: #d9e4e4;
+  margin:auto;
+  
+}
+.btn{
+  background-image:linear-gradient(to top,#83a92c,#a4d337) ;
+  padding:10px 20px;
+  border-radius:6px;
+  margin:40px;
+  text-decoration: none;
+  font-size:1.5rem;
+  color:white;
+  box-shadow: 2px 2px 4px #6a8823;
+}
+.btn:hover {
+  background-image:linear-gradient(to top,#a4d337,#83a92c) ;
+}
+.footer-link{
+  text-decoration: none;
+  margin:30px ;
+  color:#ffffff;
+}
+.bottom-container{
+  margin-top:100px;
+  background-image: linear-gradient(to right,#1c5c54,#3cc1b1);
+  padding:40px;
+  color:white;
+}
