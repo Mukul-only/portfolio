@@ -13,6 +13,7 @@
 body {
   font-family: "Merriweather", serif;
   text-align: center;
+  color:#40515e;
 }
 
 h2 {
@@ -125,6 +126,8 @@ hr{
   font-size:1.5rem;
   color:white;
   box-shadow: 2px 2px 4px #6a8823;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
 }
 .btn:hover {
   background-image:linear-gradient(to top,#a4d337,#83a92c) ;
@@ -134,9 +137,13 @@ hr{
   margin:30px ;
   color:#ffffff;
 }
-.bottom-container{
+.bottom-container {
   margin-top:100px;
   background-image: linear-gradient(to right,#1c5c54,#3cc1b1);
   padding:40px;
   color:white;
+}
+.bottom-container p{
+  font-size: 0.75rem;
+  
 }
